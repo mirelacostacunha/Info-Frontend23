@@ -28,7 +28,7 @@ let form = document.querySelector("form");
 let botaoLogar = document.querySelector("#form-botao");
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault();
+  event.preventDefault(); //depois tem que tirar para enviar
   let usuario = document.querySelector("#email").value;
   let senha = document.querySelector("#senha").value;
   // validar se campos não estão nulos.
